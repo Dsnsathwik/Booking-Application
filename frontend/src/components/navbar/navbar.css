@@ -1,0 +1,44 @@
+.navbar{
+  height: 50px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-weight: 500;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+
+.user {
+  display: flex;            /* Use Flexbox for layout */
+  align-items: center;      /* Vertically center the icon and text */
+  gap: 15px;                 /* Space between icon and text */
+}
+
+.user svg {
+  font-size: 1.5em;         /* Adjust icon size */
+  color: white;              /* Set icon color */
+}
+
+#userName {
+  font-size: 1em;           /* Adjust text size */
+  color:  white;              /* Set text color */
+  margin: 0;                /* Remove default margin */
+}
